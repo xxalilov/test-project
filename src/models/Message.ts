@@ -4,7 +4,7 @@ import { User } from "./User";
 
 class Message extends Model {
   declare message_id: string;
-  // declare room_id: string;
+  declare room_id: string;
   declare title: string;
   declare filename: string;
   declare filepath: string;
